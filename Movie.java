@@ -3,7 +3,6 @@ public class Movie {
     private double duration;
     private int rating;
 
-
     public Movie(String t, double d){
         title=t; 
         duration=d; 
