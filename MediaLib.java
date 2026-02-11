@@ -24,7 +24,7 @@ public class MediaLib
 
     }
     else{
-      System.out.println("The book already exists in the library");
+      System.out.println("The library already has a book called" + b.getTitle());
     }
   }
 
@@ -35,7 +35,7 @@ public class MediaLib
       numMovies++;
     }
     else{
-      System.out.println("The movie already exists in the library");
+      System.out.println("The library already has a movie called " + m.getTitle());
     }
 
   }
@@ -87,7 +87,7 @@ public class MediaLib
       numSongs++;
     }
     else{
-      System.out.println("The song already exists in the library");
+      System.out.println("The library already has a song called " + s.getTitle());
     }
   }
 
