@@ -1,8 +1,3 @@
-/*
- * Activity 2.2.7
- *
- * A Book class for the MediaLibrary program
- */
 public class Book
 {
   private String title;
